@@ -1,9 +1,9 @@
 import { Container, Button, Spinner } from "react-bootstrap";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import logo from "../src/assets/logosimpson.png";
 import Frases from "./components/Frases";
 import { useEffect, useState } from "react";
+import './App.css';
 
 const App = () => {
   const [personaje, setPersonaje] = useState({});
@@ -41,7 +41,7 @@ const App = () => {
       <Container className=" text-center my-4">
         <img src={logo} alt="logo de los simpson" className="img-fluid" />
         {mostrarComponentes}
-        <Button variant="primary" onClick={consultarAPI}>
+        <Button variant="primary" className="mt-3" onClick={consultarAPI}>
           Cambiar Frase
         </Button>
       </Container>
