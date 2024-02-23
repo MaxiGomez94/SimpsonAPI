@@ -1,19 +1,19 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card";
 
-function BasicExample() {
+function Frases({ personaje }) {
   return (
-    <Card className='border-0'>
-        <Card.Title>Nelson Munts</Card.Title>
+    <Card className="border-0">
+      <Card.Title>{personaje.character}</Card.Title>
       <Card.Body>
-      <Card.Img variant="top" src="https://cdn.glitch.me/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FNelsonMuntz.png" className='img-fluid w-25'/>
-        <Card.Text className='py-4 mt-4'>
-        Shoplifting is a victimless crime, like punching someone in the dark
-        </Card.Text>
-        <Button variant="primary">Cambiar Frase</Button>
+        <Card.Img
+          variant="top"
+          src={personaje.image}
+          className="img-fluid w-25"
+        />
+        <Card.Text className="py-4 mt-4">{personaje.quote}</Card.Text>
       </Card.Body>
     </Card>
   );
 }
 
-export default BasicExample;
+export default Frases;
