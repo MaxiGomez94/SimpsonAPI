@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(35, 35, 167, 0.856);
+}
+
+.card-img{
+    background-color: rgba(66, 66, 184, 0.856);
+}
+.title-card{
+    text-shadow: 5px 5px 5px  yellow;
+}
+.text-card{
+    text-shadow: 5px 5px 5px black;
+}
