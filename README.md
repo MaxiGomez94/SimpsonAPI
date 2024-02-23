@@ -5,7 +5,7 @@
 Si Quieres clonar este repo 
 hazlo en tu maquina loca con los siguientes comando 
 usa git bash oh la terminal que prefieras 
-git clone :
+git clone https://github.com/MaxiGomez94/SimpsonAPI.git
 <hr>
 No olvides instalar las dependecis!
 nmp install :)
